@@ -1,0 +1,141 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-weight: bold;
+  }
+  
+  /* Main styles */
+  #hero {
+    background-image: url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #hero h1 {
+    font-size: 5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #hero p {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #666;
+  }
+  
+  /* Feature styles */
+  #features {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feature {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature i {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .feature h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .feature p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  footer a {
+    color: #fff;
+  }
+  
